@@ -1,0 +1,84 @@
+#adminmenuback,#adminmenuwrap{
+	background-color:#3a4446;
+	border-color:#000;
+	}
+	
+#adminmenu li.menu-top:hover>a,#adminmenu li.menu-top.focused>a,#adminmenu li.menu-top>a:focus{
+	color:#fff;
+	background-color:#fff;
+	background-image:url(current-menu.gif);
+	text-shadow:1px 1px #BADAE0;
+	font-weight:normal;
+	}
+	
+#adminmenu a.menu-top,.folded #adminmenu li.menu-top,#adminmenu .wp-submenu .wp-submenu-head{
+	border-top-color:#3a4446;
+	border-bottom-color:#3a4446;
+	background-color:none;
+	}
+
+#adminmenu li.menu-top>a,#adminmenu >a,#adminmenu li.menu-top>a{
+	color:#fff;
+	border-bottom:#666 1px solid;
+	font-weight:normal;
+	}
+#adminmenu li.wp-not-current-submenu .wp-menu-arrow {
+	background-image:url(current-menu.gif);
+	border-top-color:#3a4446;
+	border-bottom-color:#3a4446;
+	}
+#adminmenu li.wp-not-current-submenu .wp-menu-arrow div{
+	background-color:#fff;
+	border-left-color:#fff;
+	border-bottom-color:#fff;
+	}
+#adminmenu li.wp-has-current-submenu .wp-menu-arrow {
+	display:none;
+	}
+#adminmenu li.wp-has-current-submenu:hover .wp-menu-arrow {
+	display:none;
+}
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, #adminmenu li.current a.menu-top, .folded #adminmenu li.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, #adminmenu .wp-menu-arrow, #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head {
+    background-color: #3a4446;
+    background-image:url(current-menu.gif);
+}
+
+#adminmenu li.separator {
+    border-color: #3a4446;
+}
+#adminmenu li.wp-not-current-submenu {
+	background-color:#3a4446;
+}
+
+#adminmenu li.wp-menu-separator{
+	background-color: #3a4446;
+	border-color: #3a4446;
+}
+#adminmenu div.wp-submenu-head {
+	background-image:url(current-menu.gif);
+	border:none;
+}
+#adminmenu li.wp-menu-separator{
+	background:#d1e5ee;
+	border:none;
+	}
+	
+#adminmenu div.separator{
+	border-color:none;
+}
+
+#adminmenu li.wp-menu-separator {
+	background-color:#d1e5ee;
+	height:1px;
+}
+#adminmenu div.separator {
+	background-color:#d1e5ee;
+	border:none;
+}
+#adminmenu li .awaiting-mod span, #adminmenu li span.update-plugins span, #sidemenu li a span.update-plugins span {
+	color:#2347ff;
+}
+#adminmenu .awaiting-mod, #adminmenu span.update-plugins, #sidemenu li a span.update-plugins {
+    border-radius: 10px 10px 10px 10px;
+	background-color:#FFF;
+}
